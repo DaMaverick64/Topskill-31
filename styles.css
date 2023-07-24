@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0em 2em 0em 2em;
+    padding: 1em;
 }
 .header{
     display: flex;
@@ -18,6 +18,12 @@
 }
 #logo{
     width: 8rem;
+}
+.header_button{
+    color:white;
+    background-color: transparent;
+    padding: 0 2em 0em 2em;
+    border:0px;
 }
 .right_corner{
     display: flex;
@@ -57,4 +63,18 @@ fieldset{
     justify-content: space-between;
     align-items: center;
     background-color: #5C6894;
+}
+#one_4th{
+    display: flex;
+    justify-content: space-around;
+}
+.one_4th_d{
+    display: flex;
+    flex-direction: column;
+    
+}
+#one_5th{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
