@@ -10,25 +10,24 @@
     <div class="h1">
         <img id="logo" src="files/LOGO (2).png">
         <div class="right_corner">
-            <button type="button">my accounta<img src="files/Vector (1).png"></button>
-            <button type="button">my cart<img src="files/Vector (2).png"></button>
+            <button class="h1_button" type="button">my accounts<img class="tiny_icons" src="files/Vector (1).png"></button>
+            <button class="h1_button" type="button">my cart<img class="tiny_icons" src="files/Vector (2).png"></button>
         </div>
     </div>
     <div class="header">
         <div id="left">
-            <button class="header_button" type="button">HOME</button>
-            <button class="header_button" type="button">FEATURES</button>
-            <button class="header_button" type="button">SPECIAL</button>
-            <button class="header_button" type="button">AFFILIATE</button>
-            <button class="header_button" type="button">CONTACT</button>
+            <button class="header_button" type="button" href="">HOME</button>
+            <button class="header_button" type="button" href="">FEATURES</button>
+            <button class="header_button" type="button" href="">SPECIAL</button>
+            <button class="header_button" type="button" href="">AFFILIATE</button>
+            <button class="header_button" type="button" href="">CONTACT</button>
         </div>
         <div class="right_corner">
             <div>
-                <label for="categories">All Categories</label>
-                <select name="" id="categories"></select>
-            </div>
-            <div>
-                <input type="search" value="search">
+                <form action="">
+                    <input class="search_button grey_color" type="search" value="search">
+                    <button type="submit"><img class="small_icons" src="files/Vector (3).png"></button>
+                </form>
             </div>
         </div>
     </div>
@@ -37,27 +36,48 @@
             <div>
                 <fieldset id=categories>
                     <legend>Brand Categories</legend>  
-                    <button type="button">Apple</button>
-                    <button type="button">Samsung</button>
-                    <button type="button">Xiaomi</button>
-                    <button type="button">Oppo</button>
-                    <button type="button">Techo</button>
-                    <button type="button">Lenovo</button>
-                    <button type="button">Huawai</button>
-                    <button type="button">Infinix</button> 
-                    <button type="button">Vivo</button>
-                    <button type="button">Nokia</button>
-                    <button type="button">Itel Mobile</button>
-                    <button type="button">Asus</button>
-                    <button type="button">Sony</button>
+                    <button class="product" type="button">Apple</button>
+                    <button class="product" type="button">Samsung</button>
+                    <button class="product" type="button">Xiaomi</button>
+                    <button class="product" type="button">Oppo</button>
+                    <button class="product" type="button">Techo</button>
+                    <button class="product" type="button">Lenovo</button>
+                    <button class="product" type="button">Huawai</button>
+                    <button class="product" type="button">Infinix</button> 
+                    <button class="product" type="button">Vivo</button>
+                    <button class="product" type="button">Nokia</button>
+                    <button class="product" type="button">Itel Mobile</button>
+                    <button class="product" type="button">Asus</button>
+                    <button class="product" type="button">Sony</button>
                 </fieldset>
             </div>
             <div>
-                <fieldset>
+                <fieldset id="left_2nd">
                     <legend>Best Sellers</legend>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="left_2nd_flex">
+                        <div><img src="files/itel-removebg-preview 1.png" alt="itel phone"></div>
+                        <div>
+                            <p>Itel S18 Pro</p><p>6.6" 4GBram+64Gigrom</p>
+                            <p>N78,000</p>
+                            <button class="blue_background"  type="button=" value="">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="left_2nd_flex">
+                        <div><img src="files/phone_2-removebg-preview 1.png" alt=""></div>
+                        <div>
+                            <p>Iphone 14 Pro Max</p>
+                            <p>N700,000</p>
+                            <button class="blue_background"  type="button=" value="">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="left_2nd_flex">
+                        <div><img src="files/image 2.png" alt=""></div>
+                        <div>
+                            <p>Itel ASB Pro</p>
+                            <p>N65,000</p>
+                            <button class="blue_background" type="button=" value="">BUY NOW</button>
+                        </div>
+                    </div>
                 </fieldset>
             </div>
             <div>
@@ -70,9 +90,13 @@
         </div>
         <div id="right_part">
             <div id="right_top">
-                <h2>Huge Discounts</h2>
-                <P>On Your First Purchase</P>
-                <button type="button">Explore More</button>
+                <div id="huge_discount">
+                    <div>
+                        <h2>Huge Discounts</h2>
+                        <P>On Your First Purchase</P>
+                    </div>
+                    <button class="blue_background" type="button">Explore More</button>
+                </div>
                 <img id="group_40" src="files/Group 40.png">
             </div>
             <div id="right_2nd">
@@ -87,61 +111,60 @@
                 </fieldset>
             </div>
             <div id="right_3rd">
-                <div>
-                    <img src="files/phone_2-removebg-preview 1.png">
+                <div class="phone_background">
+                    <img class="images" src="files/phone_2-removebg-preview 1.png">
                     <p>Iphone 14 Pro Max</p>
                     <p>N700,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/phone_3-removebg-preview 1.png">
+                <div class="phone_background">
+                    <img class="images" src="files/phone_3-removebg-preview 1.png">
                     <p>Samsung Galaxy Ultra 20</p>
                     <p>N450,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/sony-xperia-1-v-removebg-preview 1.png">
+                <div class="phone_background">
+                    <img class="images" src="files/sony-xperia-1-v-removebg-preview 1.png">
                     <p>Sony Xperia 1 v</p>
                     <p>N350,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/image 2.png">
+                <div class="phone_background">
+                    <img class="images" src="files/image 2.png">
                     <p>Itel ASB Pro</p>
                     <p>N65,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/image 4 (1).png">
+                <div class="phone_background">
+                    <img class="images" src="files/image 4 (1).png">
                     <p>Tecno Camon 18</p>
                     <p>N105,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/sony-xperia-1-v-removebg-preview 1.png">
+                <div class="phone_background">
+                    <img class="images" src="files/sony-xperia-1-v-removebg-preview 1.png">
                     <p>Lenovo P2</p>
                     <p>N330,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/image 8 (1).png">
+                <div class="phone_background">
+                    <img class="images" src="files/image 8 (1).png">
                     <p>Huawai P60</p>
                     <p>N103,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/image 10 (1).png">
+                <div class="phone_background">
+                    <img class="images" src="files/image 10 (1).png">
                     <p>Nokia G60</p>
                     <p>N250,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-                <div>
-                    <img src="files/image 6 (1).png">
+                <div class="phone_background">
+                    <img class="images" src="files/image 6 (1).png">
                     <p>Lenovo P2</p>
                     <p>N330,000</p>
-                    <button type="button">Add to Cart</button>
+                    <button class="blue_background" type="button">Add to Cart</button>
                 </div>
-            
             </div>
             <div id="right_4th">
 
@@ -158,8 +181,10 @@
             <P>Get updates on new arrivals and discount</P>
         </div>
         <div>
-            <input type="ema" placeholder="enter your email">
-            <button type="button">SUBSCRIBE</button>
+            <form action="">
+                <input type="email" placeholder="enter your email">
+                <button type="button">SUBSCRIBE</button>
+            </form>
         </div>
     </div>
     <div id="one_4th">
@@ -191,10 +216,10 @@
         </div>
     </div>
     <div id="one_5th">
-        <div><img src="files/iconamoon_delivery-free.png">Free Delivery</div>
-        <div><img src="files/fluent_group-return-20-filled.png">Free Return</div>
-        <div><img src="files/Vector.png">Customer Support 24/7</div>
-        <div><img src="files/Frame 28.png"></div>
+        <div class="one_5th_d"><img class="footer_icons" src="files/iconamoon_delivery-free.png"><p>Free Delivery</p></div>
+        <div class="one_5th_d"><img class="footer_icons" src="files/fluent_group-return-20-filled.png"><p>Free Return</p></div>
+        <div class="one_5th_d"><img class="footer_icons" src="files/Vector.png"><p>Customer Support 24/7</p></div>
+        <div><img  src="files/Frame 28.png"></div>
     </div>
     <div id="footer">
         <p>copyright @ 2023 by <b>Cellify</b>. All Rights Reserved.</p>
